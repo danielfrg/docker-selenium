@@ -5,7 +5,7 @@ Docker image containing selenium (`2.43`) and the google chrome driver (`2.10`)
 
 ## Usage
 
-One liner: `docker run -it --privileged -p 4444:4444 danielfrg/selenium`
+One liner: `docker run -it -p 4444:4444 danielfrg/selenium`
 
 Selenium UI is available at:
 [http://DOCKERHOST:4444/wd/hub/static/resource/hub.html](http://DOCKERHOST:4444/wd/hub/static/resource/hub.html)
