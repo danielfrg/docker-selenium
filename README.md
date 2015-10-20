@@ -1,7 +1,7 @@
 docker-selenium
 ===============
 
-Docker image containing selenium (`2.43`) and the google chrome driver (`2.10`)
+Docker image containing selenium (`2.48`) and the google chrome driver (`2.20`)
 
 ## Usage
 
