@@ -5,7 +5,9 @@ Docker image containing selenium (`2.48`) and the google chrome driver (`2.20`)
 
 ## Usage
 
-One liner: `docker run -it -p 4444:4444 danielfrg/selenium`
+One liner: `docker run -it -v /dev/shm:/dev/shm -p 4444:4444 danielfrg/selenium`
+
+NOTE: the /dev/shm mount is the recommended workaround for the chrome crash issue as per [SeleniumHQ/docker-selenium](https://github.com/SeleniumHQ/docker-selenium#running-the-images)
 
 Selenium UI is available at:
 [http://DOCKERHOST:4444/wd/hub/static/resource/hub.html](http://DOCKERHOST:4444/wd/hub/static/resource/hub.html)
